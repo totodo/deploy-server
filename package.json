@@ -1,0 +1,29 @@
+{
+  "name": "inspection-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "ISDEV=true mocha"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jkom-micro-service-sdk-nodejs": "github:jkom-cloud/jkom-micro-service-sdk-nodejs",
+    "moment": "^2.18.0",
+    "parse-github-hookjson": "^1.0.1",
+    "redis": "^2.6.3",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
